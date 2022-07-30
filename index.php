@@ -4,6 +4,32 @@
     <title>PHP Store</title>
   </head>
   <body>
+  <style>
+	ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		list-style: none;
+	}
+	ul > li {
+		margin: auto 5px;
+		padding: 1.2rem;
+		background-color: yellow;
+	}
+	ul > li > a {
+		text-decoration: none;
+	}
+  </style>
+	<ul>
+		<li>
+			<a href="./PHP_v8/">PHP_v8</a>
+		</li>
+		<li>
+			<a href="./OOP/">PHP_OOP</a>
+		</li>
+	</ul>
     <?php
 	    $name = "PHP Store";
         $credit = 1000; 
