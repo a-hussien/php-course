@@ -19,3 +19,12 @@ echo "<br />";
 
 // get static property
 var_dump(User::getLocation());
+
+echo "<br />";
+
+require_once('Classes/Profile.php');
+
+$profile = new Profile;
+
+var_dump($profile->hasProfile());
+
