@@ -43,7 +43,6 @@ var_dump($square->getAria(5, 4));
 
 echo "<br />";
 
-var_dump($square->getShadow($square->getAria(5, 4), 2));
 
 
 

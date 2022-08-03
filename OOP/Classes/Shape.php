@@ -9,7 +9,6 @@
 interface Shape
 {
     public function getAria($x, $y);
-    public function getShadow(getAria $aria, $z);
 }
 
 class Square implements Shape
@@ -17,11 +16,6 @@ class Square implements Shape
     public function getAria($x, $y)
     {
         return $x * $y;
-    }
-
-    public function getShadow($aria, $z)
-    {
-        return $aria - $z;
     }
 }
 
