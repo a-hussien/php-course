@@ -8,3 +8,5 @@ _OOP In PHP_
 6. Self and Static keywords
 7. Inheritance Pillar
 8. Abstraction And Polymorphism Pillars
+9. Encapsulation Pillar And Overall Implementation
+10. Override and Final Keyword
