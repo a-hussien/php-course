@@ -37,4 +37,8 @@ class User
         return self::$location;
     }
 
+    public function hasProfile()
+    {
+       return $this->firstName !== Null ? 'user has profile' : 'user hasn\'t profile';
+    }
 }

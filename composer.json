@@ -1,0 +1,18 @@
+{
+    "name": "3lyhussein/php-course",
+    "type": "project",
+    "authors": [
+        {
+            "name": "a-hussien",
+            "email": "a.hussien87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OOP\\": "OOP/"
+        }
+    }
+}
